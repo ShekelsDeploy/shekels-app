@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+.auto-fit-grid{
+  display: grid;
+  grid-template-columns: repeat(
+      auto-fit,
+      minmax(
+          200px,
+          1fr
+      )
+  );
+  gap: 16px;
+}
+/* 
+html {
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.App {
+  height: 100%;
+} */
+
+/* .menu-wrapper {
+  position: fixed;
+  height: 100%;
+  width: 300px;
+  transition: 1s;
+  color: rgb(87, 87, 87);
+} */
+
+/* .content-wrapper {
+  transition: 1s;
+  margin-left: 300px;
+} */
+
+/* Animation */
+/* .menu-mini {
+  width: 70px;
+  transition: 1s;
+}
+
+.display-none span {
+  position: absolute;
+  opacity: 0;
+  transition: 0s;
+}
+.display-none h2, .display-none .account-data, .display-none p{
+  color: rgba(240, 248, 255, 0);
+  transition: 0s;
+}
+.menu-mini .menu-chisyoso {
+  padding: 0;
+}
+
+.menu-mini ul {
+  padding: 15px;
+  text-align: center;
+}
+
+.menu-mini i {
+  margin: 0;
+  font-size: 1.2em;
+} */
